@@ -18,9 +18,9 @@ O design do aplicativo foi criado seguindo as orientações do setor de Design U
 
 A seguir estão duas capturas de tela do aplicativo:
 
-![Captura de Tela 1](src/imgs/iphone2.png)
+![Captura de Tela 1](https://github.com/pulpor/blackjack/blob/main/blackjack_proj/src/imgs/iphone2.png)
 
-![Captura de Tela 2](src/imgs/iphone.png)
+![Captura de Tela 2](https://github.com/pulpor/blackjack/blob/main/blackjack_proj/src/imgs/iphone.png)
 
 ## Como Executar o Projeto
 
