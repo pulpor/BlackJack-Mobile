@@ -1,4 +1,5 @@
 export function addCardToPlayer(card, playerNumber, playersScore) {
+  
   // cria a imagem da carta
   const img = document.createElement('img');
   img.src = card.image;
@@ -8,10 +9,6 @@ export function addCardToPlayer(card, playerNumber, playersScore) {
   // adiciona a carta na tela
   document.querySelector(`.player-${playerNumber}.cards`).appendChild(img);
 
-  // JACK é o J (valete)
-  // QUEEN é o Q (rainha)
-  // KING é o K (rei)
-  // ACE é o A
   if (card.value === 'JACK' || card.value === 'QUEEN' || card.value === 'KING') {
     playersScore[playerNumber] += 10;
   } else if (card.value === 'ACE') {

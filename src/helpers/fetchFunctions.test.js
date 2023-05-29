@@ -7,13 +7,6 @@ describe('API testing', () => {
       expect(data.success).toBe(true);
       expect(data.remaining).toBe(52);
       expect(data.shuffled).toBe(true);
-      // expect(data.deck_id).toBe('nkznzmy461ik'); // teria que fazer mock do fetch
-      // {
-      //   "success": true,
-      //     "deck_id": "nkznzmy461ik",
-      //     "remaining": 52,
-      //     "shuffled": true
-      // }
     });
   });
 
@@ -35,15 +28,9 @@ describe('API testing', () => {
     it('Deve retornar um erro caso o deck_id seja inválido (async/await)', async () => {
       try {
         await drawCard('invalido'); // vai dar erro
-        // ...
       } catch (error) {
         expect(error.message).toBe('Alguma coisa aconteceu nesse mundo');
       }
     });
   });
 });
-
-// es6 modules (import e export)
-// CommonJS (require e module.exports) node < 18
-
-// falso positivo
