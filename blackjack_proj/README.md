@@ -18,9 +18,9 @@ O design do aplicativo foi criado seguindo as orientações do setor de Design U
 
 A seguir estão duas capturas de tela do aplicativo:
 
-![Captura de Tela 1](src/imgs/iphone2.png)
+![Captura de Tela 1](https://github.com/pulpor/blackjack/blob/main/blackjack_proj/src/imgs/iphone2.png)
 
-![Captura de Tela 2](src/imgs/iphone.png)
+![Captura de Tela 2](https://github.com/pulpor/blackjack/blob/main/blackjack_proj/src/imgs/iphone.png)
 
 ## Como Executar o Projeto
 
@@ -28,7 +28,7 @@ Siga as etapas abaixo para executar o projeto localmente:
 
 1. Clone este repositório em sua máquina local.
 
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone [https://github.com/pulpor/BlackJack-Mobile](https://github.com/pulpor/BlackJack-Mobile)
 
 2. Navegue até o diretório do projeto.
 
