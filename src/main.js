@@ -1,5 +1,6 @@
 import { startNewGame, drawCard, stopGame } from './helpers/fetchFunctions';
 import { addCardToPlayer } from './helpers/addCard';
+import { showResult } from './helpers/addCard' 
 import './style.css';
 
 const shuffleButton = document.querySelector('.shuffle');
