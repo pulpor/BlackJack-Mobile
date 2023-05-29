@@ -14,7 +14,7 @@ body {
   height: 270px;
   border: 5px solid white;
   border-top: none;
-  background-image: url('./imgs/TopTable.png');
+  background-image: url('./imgs/topBackground.png');
   background-size: 250px;
   display: flex;
   justify-content: space-between;
@@ -38,7 +38,7 @@ body {
 }
 
 .cards {
-  background-image: url('./imgs/CardBase.png');
+  background-image: url('./imgs/cardsBase.png');
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;

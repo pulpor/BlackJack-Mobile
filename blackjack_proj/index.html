@@ -6,20 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blackjack</title>
-
 </head>
 
 <body>
 
   <header class="top">
     <button class="shuffle">
-      <img src="src/imgs/shuffle.svg" alt="Embaralhar cartas">
+      <img src="src/imgs/shuffle.png" alt="Embaralhar cartas">
     </button>
-    <div class="player-2 cards">
-      <img src="src/imgs/placeholderCard.png" alt="Carta do player 2" class="card">
-      <img src="src/imgs/placeholderCard.png" alt="Carta do player 2" class="card">
-      <img src="src/imgs/placeholderCard.png" alt="Carta do player 2" class="card">
-    </div>
+    <div class="player-2 cards"></div>
     <div class="player-2 score">0</div>
   </header>
 
@@ -27,17 +22,12 @@
 
   <main class="center">
 
-    <div class="player-1 cards">
-      <img src="src/imgs/placeholderCard.png" alt="Carta do player 1" class="card">
-      <img src="src/imgs/placeholderCard.png" alt="Carta do player 2" class="card">
-      <img src="src/imgs/placeholderCard.png" alt="Carta do player 2" class="card">
-      <img src="src/imgs/placeholderCard.png" alt="Carta do player 2" class="card">
-    </div>
-    <div class="score">0</div>
+    <div class="player-1 cards"></div>
+    <div class="player-1 score">0</div>
 
     <div class="buttons">
-      <button class="draw gameBtn">+</button>
-      <button class="stop gameBtn">-</button>
+      <button class="draw gameBtn" disabled>+</button>
+      <button class="stop gameBtn" disabled>-</button>
     </div>
     <img src="src/imgs/win.png" alt="Resultado da partida" class="result hidden">
   </main>

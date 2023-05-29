@@ -4,7 +4,7 @@
   "description": "projeto baseado no famoso jogo blackjack 21",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "NODE_OPTIONS=--experimental-vm-modules NODE_NO_WARNINGS=1 jest --watchAll",
     "dev": "vite --open"
   },
   "keywords": [],
@@ -14,6 +14,7 @@
    "vite": "^4.3.8"
   },
   "devDependencies": {
-     "@trybe/eslint-config-frontend": "^1.11.2"
+    "@trybe/eslint-config-frontend": "^1.11.2",
+    "jest": "^29.5.0"
   }
 }
